@@ -1,0 +1,266 @@
+body {
+    margin: 120px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 30%;
+    padding: 40px;
+    background-color: rgb(214, 213, 213);
+    border: 2px rgb(58, 57, 57) solid;
+    border-radius: 3px;
+}
+.index-wrapper,
+.wrapper-test {
+    width: 55%;
+}
+.form input{
+    max-width: 456px;
+    width: 100%;
+    margin: 5px 0;
+    height: 30px;
+    border-radius: 3px;
+    border: solid 1px;
+    box-sizing: border-box;
+}
+h1, h2{
+    text-align: center;
+}
+.form .fileName{
+    border: 0;
+}
+.error-input::placeholder{
+    color: red;
+}
+.div-index-form{
+    max-width: 1000px;
+    width: 100%;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border: 5px #d37aef solid;
+    background-color: #e5aaf7;
+    border-radius: 5px;
+}
+.div-index-form p {
+    margin: 0;
+}
+h2 {
+    margin-top: 0;
+}
+.index-form input {
+    display: block;
+}
+.div-flex input:last-child{
+    transition: all 2s ease;
+}
+.div-relative {
+    position: relative;
+    left: 587px;
+    top: -48px;
+    max-width: 120px;
+}
+.div-relative-second {
+    position: relative;
+    top: -48px;
+    max-width: 120px;
+    width: 100%;
+}
+.form-relative input {
+    height: 30px;
+    border-radius: 5px;
+    transition: all 2s ease;
+    border: 2px solid;
+}
+.div-relative input:hover ,
+.div-relative-second input:hover,
+.div-flex input:last-child:hover {
+    background-color: rgb(221, 193, 141);
+    transition: all 2s ease;
+}
+.div-block {
+    margin-bottom: 20px;
+}
+.label-font-weight label{
+    font-weight: bold;
+}
+.div-block input {
+    max-width: 30px;
+    width: 100%;
+    height: 17px;
+}
+.wrapper-test h1 {
+    margin-top: 0;
+}
+.submit input {
+    max-width: 700px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: solid 1px;
+    box-sizing: border-box;
+}
+.admin {
+    display: none;
+}
+.admin-block,
+.table-block {
+    display: block;
+}
+table{ 
+    max-width: 1200px;
+    width: 100%;
+    border: 2px solid #2d2828;
+	border-spacing: 0.5; 
+    margin: 0 auto;
+}
+table td { 
+    padding: 5px; 
+    font-family: Arial, sans-serif;
+    border: 2px solid #2d2828;
+    text-align: center;
+} 
+table tr:nth-of-type(even) { 
+    background-color:#A9E2F3; 
+} 
+.div-flex {
+    display: flex;
+    width: 555px;
+}
+.div-flex input:first-child {
+    margin-right: 25px;
+}
+.div-width {
+    max-width: 555px;
+    width: 100%;
+    display: inline-block;
+}
+.div-inline-block {
+    display: inline-block;
+    margin-right: 30px;
+}
+.div-relative-top {
+    top: -90px;
+}
+.form-div-flex {
+    display: flex;
+    justify-content: center
+}
+.input-width {
+    max-width: 275px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+button {
+    max-width: 225px;
+    width: 100%;
+}
+.form-basket {
+    margin: 0;
+}
+.form-view {
+    max-width: 1000px;
+    margin-bottom: 10px;
+}
+form {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.createProduct {
+    max-width: 350px;
+}
+.createProduct input,
+.createProduct label,
+.createProduct textarea,
+.createProduct button{
+    max-width: 350px;
+    width: 100%;
+}
+.createProduct button {
+    margin-bottom: 15px;
+}
+.createProduct .fileName {
+    margin-bottom: 10px;
+}
+.divCreateProduct {
+    width: 450px;
+    border: solid 2px #2d2828;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.divCreateProduct h2 {
+    padding-top: 10px;
+}
+.figure-a{
+    text-decoration: none;
+    color: black;
+}
+.allProducts {
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.products, 
+.formDeleteUpdate {
+    display: inline-block;
+}
+.products-view {
+    width: 100%;
+    border: 2px solid #5fea6d;
+    border-radius: 5px;
+}
+.products {
+    width: 79%;
+    border: 2px solid #5fe1ea;
+    border-radius: 5px;
+}
+.formDeleteUpdate {
+    width: 20%;
+}
+.form-relative {
+    position: relative;
+}
+.form-delete {
+    position: absolute;
+    top: -100px;
+}
+.form-update {
+    position: absolute;
+    top: -35px;
+}
+.one-product {
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid #A9E2F3;
+    border-radius: 5px;
+}
+.div-view,
+select {
+    margin-bottom: 10px;
+}
+.div-view div {
+    display: inline-block;
+}
+.div-view .div-view-button,
+.form-view-reset {
+    display: block;
+    max-width: 225px;
+    width: 100%;
+    margin: 0 auto;
+}
+.basketProduct {
+    width: 33%;
+    display: inline-block;
+}
+.basketProduct figure,
+.oneBasketProduct {
+    border: 2px solid #5feaae;
+    border-radius: 5px;
+    text-align: center;
+}
+.oneBasketProduct {
+    border: 2px solid #d15fea;
+}

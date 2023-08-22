@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+Options -Indexes
+AddDefaultCharset UTF-8
+<IfModule mod_rewrite.c>
+# Включаем перенаправление
+RewriteEngine on
+# путь от корня сайта до .htaccess
+RewriteBase /
+# Не применять к существующим файлам
+RewriteCond %{REQUEST_FILENAME} !-f
+# Не применять к существующим директориям
+RewriteCond %{REQUEST_FILENAME} !-d
+# преобразовывает строку в соответствии с регулярными выражениями.
+RewriteRule .* index.php/$0 [PT,L]
+</IfModule>

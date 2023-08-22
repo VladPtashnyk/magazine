@@ -1,0 +1,1 @@
+<img style="max-width: 100px;" src="/app/resourse/uploads/<?= $name ? $name : '' ?>" alt="<?= $alt ?? $name ?>">
